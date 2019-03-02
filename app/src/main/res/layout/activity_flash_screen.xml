@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FlashScreenActivity">
+
+    <ImageView
+        android:id="@+id/logoApp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/locations_delivery" />
+
+    <TextView
+        android:id="@+id/titleApp"
+        android:layout_below="@id/logoApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="32sp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:text="KDeliveryApp"/>
+    <TextView
+        android:id="@+id/descriptionScreen"
+        android:layout_below="@+id/titleApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text=" Confidence,  Easy,  Fast, ​Quality"/>
+
+</RelativeLayout>
