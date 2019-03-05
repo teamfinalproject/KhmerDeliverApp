@@ -28,7 +28,7 @@
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
             android:textSize="32sp"
-            android:textColor="@color/colorPrimary"
+            android:textColor="#f1f1f1"
             android:textStyle="bold"
             android:text="KDeliveryApp"/>
 
@@ -55,7 +55,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="phone"
-                android:digits="855+"
                 android:hint="Phone Number" />
         </android.support.design.widget.TextInputLayout>
 

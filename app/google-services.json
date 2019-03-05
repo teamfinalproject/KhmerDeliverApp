@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "792844083313",
+    "firebase_url": "https://kdeliverapp.firebaseio.com",
+    "project_id": "kdeliverapp",
+    "storage_bucket": "kdeliverapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:792844083313:android:2b1b00de2e38aa81",
+        "android_client_info": {
+          "package_name": "com.kanhrithnon.khmerdeliverapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "792844083313-9071hsabk9l3f77qaorgbq4luv1f3euf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWjjipCW1_uaiZHFXBWMcL3zLPSIn3N8I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
