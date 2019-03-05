@@ -30,8 +30,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:padding="8px"
         android:textColor="@android:color/white"
+        android:padding="8px"
         android:text=" Confidence,  Easy,  Fast, ​Quality"/>
 
 </RelativeLayout>
