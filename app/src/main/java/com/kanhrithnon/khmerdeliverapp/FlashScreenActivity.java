@@ -19,6 +19,6 @@ public class FlashScreenActivity extends AppCompatActivity {
                 finish();
             }
         };
-        new Handler().postDelayed(runnable,3000);
+        new Handler().postDelayed(runnable,1000);
     }
 }
