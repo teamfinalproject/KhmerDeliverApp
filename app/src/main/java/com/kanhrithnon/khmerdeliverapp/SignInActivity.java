@@ -41,7 +41,7 @@ public class SignInActivity extends AppCompatActivity {
         createAccount.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(SignInActivity.this, SignUpActivity.class);
+                Intent i = new Intent(SignInActivity.this,HomeActivity.class);
                 startActivity(i);
             }
         });
@@ -94,7 +94,7 @@ public class SignInActivity extends AppCompatActivity {
                     public void onSuccess(AuthResult authResult) {
                         waitingDialog.dismiss();
 
-                        startActivity(new Intent(SignInActivity.this,SignUpActivity.class));
+                        startActivity(new Intent(SignInActivity.this,HomeActivity.class));
                         finish();
 
 
